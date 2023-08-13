@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Hero Section  */
+
+#hero {
+  background-color: #1f2937;
+  height: 100vh;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 60px;
+  height: 8vh;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav li {
+  padding: 12px;
+}
+
+#main-section {
+  display: flex;
+  padding: 24px 60px;
+  align-items: center;
+  height: 92vh;
+  gap: 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#main-section #left {
+  flex-basis: 600px;
+}
