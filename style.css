@@ -41,3 +41,23 @@ body {
 #main-section #left {
   flex-basis: 600px;
 }
+
+#features-showcase {
+  display: flex;
+  padding: 40px 120px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  text-align: center;
+  flex: 1;
+}
+
+#feature-1 h2 {
+  text-align: center;
+}
+
+#feature-1 {
+  margin-top: 80px;
+}
